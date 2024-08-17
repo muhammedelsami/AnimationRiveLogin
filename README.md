@@ -3,9 +3,9 @@ animated login screen using rive library
 
 ## Screenshots
 
-  Screen1  | Screen2            |  Screen3  |  Screen4 |  Screen5 
-:-------------------------|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/muhammedelsami/Animated-Login-Form/blob/main/assets/screen.gif)   |   ![](https://github.com/muhammedelsami/Animated-Login-Form/blob/main/assets/2.jpg)  |  ![](https://github.com/muhammedelsami/Animated-Login-Form/blob/main/assets/3.jpg)|  ![](https://github.com/muhammedelsami/Animated-Login-Form/blob/main/assets/4.jpg)|  ![](https://github.com/muhammedelsami/Animated-Login-Form/blob/main/assets/5.jpg)
+  Screen1  | Screen2            |  Screen3  |  Screen4 
+:-------------------------|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/muhammedelsami/AnimationRiveLogin/blob/main/main.jpg)   |   ![](https://github.com/muhammedelsami/AnimationRiveLogin/blob/main/succes.jpg)  |  ![](https://github.com/muhammedelsami/AnimationRiveLogin/blob/main/error.jpg)|  ![](https://github.com/muhammedelsami/AnimationRiveLogin/blob/main/password.jpg)|  
 
 ---------------------------------------------------------
 
