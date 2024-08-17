@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct ToastView: View {
+    let message: String
+    let type: ToastType
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(message)
+            .padding()
+            .background(type.backgroundColor)
+            .foregroundColor(.white)
+            .cornerRadius(10)
+            .padding(.horizontal, 20)
+    }
+}
+
+enum ToastType {
+    case success
+    case error
+    
+    var backgroundColor: Color {
+        switch self {
+        case .success: return Color.green
+        case .error: return Color.red
+        }
     }
 }
 
 #Preview {
-    ToastView()
+    ToastView(message: "Test Success", type: .success)
 }

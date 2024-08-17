@@ -11,6 +11,9 @@
 		AE9312CD2C7083F1000EE1A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9312CC2C7083F1000EE1A9 /* ContentView.swift */; };
 		AE9312CF2C7083F6000EE1A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9312CE2C7083F6000EE1A9 /* Assets.xcassets */; };
 		AE9312D22C7083F6000EE1A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9312D12C7083F6000EE1A9 /* Preview Assets.xcassets */; };
+		AE9312DA2C708478000EE1A9 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = AE9312D92C708478000EE1A9 /* RiveRuntime */; };
+		AE9312DD2C7084CC000EE1A9 /* teddy_login_screen.riv in Resources */ = {isa = PBXBuildFile; fileRef = AE9312DC2C7084CC000EE1A9 /* teddy_login_screen.riv */; };
+		AEE4A77C2C70DFE5001E2651 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4A77B2C70DFE5001E2651 /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,8 @@
 		AE9312CC2C7083F1000EE1A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE9312CE2C7083F6000EE1A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE9312D12C7083F6000EE1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE9312DC2C7084CC000EE1A9 /* teddy_login_screen.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = teddy_login_screen.riv; path = ../../../../Downloads/teddy_login_screen.riv; sourceTree = "<group>"; };
+		AEE4A77B2C70DFE5001E2651 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE9312DA2C708478000EE1A9 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +57,7 @@
 		AE9312C92C7083F1000EE1A9 /* AnimationRiveLogin */ = {
 			isa = PBXGroup;
 			children = (
+				AE9312DB2C7084AA000EE1A9 /* Assets */,
 				AE9312CA2C7083F1000EE1A9 /* AnimationRiveLoginApp.swift */,
 				AE9312CC2C7083F1000EE1A9 /* ContentView.swift */,
 				AE9312CE2C7083F6000EE1A9 /* Assets.xcassets */,
@@ -65,6 +72,15 @@
 				AE9312D12C7083F6000EE1A9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE9312DB2C7084AA000EE1A9 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AE9312DC2C7084CC000EE1A9 /* teddy_login_screen.riv */,
+				AEE4A77B2C70DFE5001E2651 /* ToastView.swift */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +99,9 @@
 			dependencies = (
 			);
 			name = AnimationRiveLogin;
+			packageProductDependencies = (
+				AE9312D92C708478000EE1A9 /* RiveRuntime */,
+			);
 			productName = AnimationRiveLogin;
 			productReference = AE9312C72C7083F1000EE1A9 /* AnimationRiveLogin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +130,9 @@
 				Base,
 			);
 			mainGroup = AE9312BE2C7083F1000EE1A9;
+			packageReferences = (
+				AE9312D82C708478000EE1A9 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = AE9312C82C7083F1000EE1A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9312D22C7083F6000EE1A9 /* Preview Assets.xcassets in Resources */,
+				AE9312DD2C7084CC000EE1A9 /* teddy_login_screen.riv in Resources */,
 				AE9312CF2C7083F6000EE1A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9312CD2C7083F1000EE1A9 /* ContentView.swift in Sources */,
+				AEE4A77C2C70DFE5001E2651 /* ToastView.swift in Sources */,
 				AE9312CB2C7083F1000EE1A9 /* AnimationRiveLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationRiveLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = HUS2SUYG6U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AnimationRiveLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = HUS2SUYG6U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -342,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE9312D82C708478000EE1A9 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE9312D92C708478000EE1A9 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE9312D82C708478000EE1A9 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE9312BF2C7083F1000EE1A9 /* Project object */;
 }
