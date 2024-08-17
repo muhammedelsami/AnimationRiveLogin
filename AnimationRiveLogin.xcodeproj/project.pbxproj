@@ -14,6 +14,10 @@
 		AE9312DA2C708478000EE1A9 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = AE9312D92C708478000EE1A9 /* RiveRuntime */; };
 		AE9312DD2C7084CC000EE1A9 /* teddy_login_screen.riv in Resources */ = {isa = PBXBuildFile; fileRef = AE9312DC2C7084CC000EE1A9 /* teddy_login_screen.riv */; };
 		AEE4A77C2C70DFE5001E2651 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4A77B2C70DFE5001E2651 /* ToastView.swift */; };
+		AEE4A7832C70E861001E2651 /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4A77E2C70E861001E2651 /* password.png */; };
+		AEE4A7842C70E861001E2651 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4A77F2C70E861001E2651 /* empty.png */; };
+		AEE4A7852C70E861001E2651 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4A7802C70E861001E2651 /* error.png */; };
+		AEE4A7872C70E861001E2651 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = AEE4A7822C70E861001E2651 /* success.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AE9312D12C7083F6000EE1A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE9312DC2C7084CC000EE1A9 /* teddy_login_screen.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = teddy_login_screen.riv; path = ../../../../Downloads/teddy_login_screen.riv; sourceTree = "<group>"; };
 		AEE4A77B2C70DFE5001E2651 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
+		AEE4A77E2C70E861001E2651 /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = password.png; path = ../../../../Desktop/password.png; sourceTree = "<group>"; };
+		AEE4A77F2C70E861001E2651 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = empty.png; path = ../../../../Desktop/empty.png; sourceTree = "<group>"; };
+		AEE4A7802C70E861001E2651 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = error.png; path = ../../../../Desktop/error.png; sourceTree = "<group>"; };
+		AEE4A7822C70E861001E2651 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = success.png; path = ../../../../Desktop/success.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,7 @@
 		AE9312C92C7083F1000EE1A9 /* AnimationRiveLogin */ = {
 			isa = PBXGroup;
 			children = (
+				AEE4A77D2C70E835001E2651 /* Screens */,
 				AE9312DB2C7084AA000EE1A9 /* Assets */,
 				AE9312CA2C7083F1000EE1A9 /* AnimationRiveLoginApp.swift */,
 				AE9312CC2C7083F1000EE1A9 /* ContentView.swift */,
@@ -81,6 +90,17 @@
 				AEE4A77B2C70DFE5001E2651 /* ToastView.swift */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		AEE4A77D2C70E835001E2651 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4A77F2C70E861001E2651 /* empty.png */,
+				AEE4A7822C70E861001E2651 /* success.png */,
+				AEE4A7802C70E861001E2651 /* error.png */,
+				AEE4A77E2C70E861001E2651 /* password.png */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE4A7852C70E861001E2651 /* error.png in Resources */,
 				AE9312D22C7083F6000EE1A9 /* Preview Assets.xcassets in Resources */,
+				AEE4A7872C70E861001E2651 /* success.png in Resources */,
+				AEE4A7832C70E861001E2651 /* password.png in Resources */,
+				AEE4A7842C70E861001E2651 /* empty.png in Resources */,
 				AE9312DD2C7084CC000EE1A9 /* teddy_login_screen.riv in Resources */,
 				AE9312CF2C7083F6000EE1A9 /* Assets.xcassets in Resources */,
 			);
